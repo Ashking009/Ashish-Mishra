@@ -32,36 +32,6 @@
          stop-color="#4961DC"
          id="stop6" />
     </linearGradient>
-    <meshgradient
-       inkscape:collect="always"
-       id="meshgradient11794"
-       gradientUnits="userSpaceOnUse"
-       x="37.145321"
-       y="20.145075"
-       gradientTransform="translate(17.773424,-57.329314)">
-      <meshrow
-         id="meshrow13332">
-        <meshpatch
-           id="meshpatch13334">
-          <stop
-             path="c 4.16995,-3.17359  11.3317,-3.50768  14.9002,0.26727"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop13336" />
-          <stop
-             path="c 4.77105,6.78172  -10.6634,4.71085  1.13565,10.6239"
-             style="stop-color:#1a1a1a;stop-opacity:1"
-             id="stop13338" />
-          <stop
-             path="c -4.83812,4.04238  -11.4654,3.04013  -15.5014,0.601543"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop13340" />
-          <stop
-             path="c -4.17067,-3.17362  -4.70521,-8.31903  -0.53445,-11.4927"
-             style="stop-color:#1a1a1a;stop-opacity:1"
-             id="stop13342" />
-        </meshpatch>
-      </meshrow>
-    </meshgradient>
     <linearGradient
        id="paint0_linear-2"
        x1="663.97302"
@@ -77,36 +47,6 @@
          stop-color="#4961DC"
          id="stop6-8" />
     </linearGradient>
-    <meshgradient
-       inkscape:collect="always"
-       id="meshgradient13516"
-       gradientUnits="userSpaceOnUse"
-       x="88.329994"
-       y="76.837402"
-       gradientTransform="translate(-49.541247,29.812795)">
-      <meshrow
-         id="meshrow15217">
-        <meshpatch
-           id="meshpatch15219">
-          <stop
-             path="c 13.36,-13.36  35.0209,-13.36  48.381,0"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop15221" />
-          <stop
-             path="c 13.36,13.36  13.36,35.0209  0,48.381"
-             style="stop-color:#587be5;stop-opacity:1"
-             id="stop15223" />
-          <stop
-             path="c -13.36,13.36  -33.4171,-42.4997  -48.9155,12.0271"
-             style="stop-color:#ffffff;stop-opacity:1"
-             id="stop15225" />
-          <stop
-             path="c -13.8946,-12.8255  -12.8255,-47.0476  0.5345,-60.4081"
-             style="stop-color:#587be5;stop-opacity:1"
-             id="stop15227" />
-        </meshpatch>
-      </meshrow>
-    </meshgradient>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath15241">
@@ -139,7 +79,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="6.3929328"
-     inkscape:cy="380.34422"
+     inkscape:cy="151.77279"
      inkscape:document-units="mm"
      inkscape:current-layer="g15261"
      inkscape:document-rotation="0"
@@ -158,7 +98,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -166,25 +106,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <circle
-       style="opacity:1;fill:url(#meshgradient13516);fill-opacity:1;stroke-width:0.264583"
-       id="path13456"
-       cx="62.979229"
-       cy="130.84068"
-       r="34.210499"
-       transform="rotate(-84.76614)"
-       inkscape:export-xdpi="349.091"
-       inkscape:export-ydpi="349.091" />
     <g
        id="g15261"
        transform="translate(-1.6036172,15.501633)">
-      <ellipse
-         style="fill:url(#meshgradient11794);fill-opacity:1;stroke-width:0.225876"
-         id="path11790"
-         ry="8.1264877"
-         rx="10.677828"
-         cy="-31.437944"
-         cx="62.469112" />
       <g
          id="g15277"
          transform="translate(0.18342533,-15.677194)"

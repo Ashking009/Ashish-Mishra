@@ -41,23 +41,13 @@
      inkscape:window-height="1051"
      id="namedview13"
      showgrid="false"
-     inkscape:zoom="1.2570787"
-     inkscape:cx="155.73384"
-     inkscape:cy="188.33422"
+     inkscape:zoom="0.88888889"
+     inkscape:cx="529.951"
+     inkscape:cy="295.46731"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11" />
-  <rect
-     x="177.90668"
-     y="-819.95959"
-     width="1270.03"
-     height="939"
-     rx="15"
-     transform="rotate(45)"
-     fill="url(#paint0_linear)"
-     id="rect2"
-     style="fill:url(#linearGradient45)" />
   <defs
      id="defs9">
     <linearGradient
@@ -78,16 +68,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#paint0_linear"
-       id="linearGradient43"
-       gradientUnits="userSpaceOnUse"
-       x1="663.973"
-       y1="-454"
-       x2="1559.63"
-       y2="757.412"
-       gradientTransform="translate(-506.5562,-344.71423)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#paint0_linear"
        id="linearGradient45"
        gradientUnits="userSpaceOnUse"
        x1="663.973"
@@ -96,14 +76,28 @@
        y2="757.412"
        gradientTransform="translate(-486.06635,-365.95961)" />
   </defs>
-  <rect
-     x="157.41682"
-     y="-798.71423"
-     width="1270.03"
-     height="939"
-     rx="15"
-     transform="rotate(45)"
-     fill="url(#paint0_linear)"
-     id="rect41"
-     style="opacity:0.1;fill:url(#linearGradient43)" />
+  <g
+     id="g885"
+     transform="translate(-12.375,52.875)">
+    <rect
+       x="177.90668"
+       y="-819.95959"
+       width="1270.03"
+       height="939"
+       rx="15"
+       transform="rotate(45)"
+       fill="url(#paint0_linear)"
+       id="rect2"
+       style="fill:url(#linearGradient45)" />
+    <rect
+       x="157.41682"
+       y="-798.71423"
+       width="1270.03"
+       height="939"
+       rx="15"
+       transform="rotate(45)"
+       fill="url(#paint0_linear)"
+       id="rect41"
+       style="opacity:0.1;fill:#5f86e9;fill-opacity:1" />
+  </g>
 </svg>
