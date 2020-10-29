@@ -10,9 +10,13 @@
 }
 body{
     background: rgb(49, 46, 46);
-    color: white;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    display: block;
+}
 a{
     color: white;
     font-family: "Montserrat";
@@ -20,10 +24,36 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: black;
+    color: #C7D0FF;
     
 }
-
+#section-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+#section-subtitle{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+.align-center{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+.container{
+    padding:100px 200px;
+}
+.container-thin{
+    padding: 100px;
+}
 .header{
     color: white;
     height: 100px;
@@ -171,6 +201,8 @@ a:hover{
    /* height: auto; */
     /* width: 100%; */
     margin-left: auto;
+    position: sticky;
+    right: 0;
     /* align-items: right; */
     /* height: min-content; */
     /* position: absolute; */
@@ -182,8 +214,8 @@ a:hover{
 }
 .hero .svg-style{
     width: 50%;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: -100px;
     right: -100px;
     z-index: -1;
 }
@@ -195,6 +227,7 @@ a:hover{
     z-index: 1;
 }
 .hero .intro-info{
+    
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -202,15 +235,20 @@ a:hover{
     align-items: center;
     font-family:"Montserrat";
     /* font-size: 54px; */
-    padding-left: 10%;
+    padding-left: 15%;
     margin: 0 auto;
     position: relative;
     margin-bottom: 100px;
 }
+/* .hero .intro-info .intro-head{
+    background: url('hello.png') no-repeat center;
+    background-size: contain;
+} */
 .hero .intro-info .intro-head h1{
     font-size: 6rem;
     line-height: 5.5rem;
     letter-spacing: .4rem;
+    color: white;
 
 }
 .hero .intro-info .intro-head h3{
@@ -288,116 +326,186 @@ a:hover{
 
 }
 .hero .intro-info .cta-btn a:hover{
+    transition: 0.3s;
     /* background: linear-gradient(134deg,black 10%,white 90%); */
     background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
    
+}
+.hero .intro-info .social-links img{
+    max-width: 3rem;
+}
+.hero .intro-info .social-links .link-1 img,.link-3 img{
+    animation: rotate 20s linear infinite ;
+    /* animation: pulse 10s ease-in-out infinite; */
+}
+.hero .intro-info .social-links .link-2 img,.link-4 img{
+    animation: rotate 20s linear infinite reverse;
+}
+@keyframes rotate{
+    0%{
+        transform: scale(1) rotate(0deg);
     }
-    .hero .intro-info .social-links img{
-        max-width: 3rem;
+    25%{
+        transform: scale(1.2) rotate(90deg);
     }
-    .hero .intro-info .social-links .link-1 img,.link-3 img{
-        animation: rotate 20s linear infinite ;
-        /* animation: pulse 10s ease-in-out infinite; */
+    50%{
+        
+        transform: scale(.8) rotate(180deg);
     }
-    .hero .intro-info .social-links .link-2 img,.link-4 img{
-        animation: rotate 20s linear infinite reverse;
+    75%{
+        
+        transform: scale(1.2) rotate(270deg);
     }
-    @keyframes rotate{
-        0%{
-            transform: scale(1) rotate(0deg);
-        }
-        25%{
-            transform: scale(1.2) rotate(90deg);
-        }
-        50%{
-            
-            transform: scale(.8) rotate(180deg);
-        }
-        75%{
-            
-            transform: scale(1.2) rotate(270deg);
-        }
-        100%{
-            transform: scale(1) rotate(360deg);
-        }
+    100%{
+        transform: scale(1) rotate(360deg);
     }
-    @keyframes pulse{
-        0%{
-            transform: scale(.8);
-        }
-        50%{
-            transform: scale(1.2);
-        }
-        100%{
-            transform: scale(.8);
-        }
+}
+@keyframes pulse{
+    0%{
+        transform: scale(.8);
     }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(.8);
+    }
+}
 
-    .hero .intro-info .social-links{
-        position: relative;
-        
-    }
-    /* .hero .intro-info .social-links .fake-cir{
-        height: 500px;
-        width: 500px;
-        position: absolute;
-        background: transparent;
-        border: tomato 5px dotted;
-        border-radius: 50%;
-        top: -400px;
-        left: -270px;
-        z-index: -10;
-    } */
-    .hero .intro-info .social-links .link-1{
-        position: absolute;
-        transform: translate(30px, 60px);
-        font-size: 2rem;
-        /* z-index: -2; */
-    }
-    .hero .intro-info .social-links .link-1 i{
-        position: absolute;
-       /* top: -50px; */
-       left:.6rem;
-       top: .5rem;
-       transform: rotateZ(-10deg);
-    }
-    .hero .intro-info .social-links .link-2{
-        position: absolute;
-        transform: translate(-130px, 60px);
-        font-size: 2rem;
-        /* z-index: -2; */
-        
-    }
-    .hero .intro-info .social-links .link-2 i{
-        position: absolute;
-       /* top: -50px; */
-       left:.6rem;
-       top: .5rem;
-       transform: rotateZ(20deg);
-    }
-    .hero .intro-info .social-links .link-3{
-        position: absolute;
-        transform: translate(-250px, -20px);
-        font-size: 2rem;
-        /* z-index: -2; */
-    }
-    .hero .intro-info .social-links .link-3 i{
-        position: absolute;
-       /* top: -50px; */
-       left:.6rem;
-       top: .5rem;
-       transform: rotateZ(40deg);
-    }
-    .hero .intro-info .social-links .link-4{
-        position: absolute;
-        transform: translate(-310px, -130px);
-        font-size: 2rem;
-        /* z-index: -2; */
-    }
-    .hero .intro-info .social-links .link-4 i{
-        position: absolute;
-       /* top: -50px; */
-       left:.6rem;
-       top: .5rem;
-       transform: rotateZ(70deg);
-    }
+.hero .intro-info .social-links{
+    position: relative;
+    
+}
+/* .hero .intro-info .social-links .fake-cir{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background: transparent;
+    border: tomato 5px dotted;
+    border-radius: 50%;
+    top: -400px;
+    left: -270px;
+    z-index: -10;
+} */
+.hero .intro-info .social-links .link-1{
+    position: absolute;
+    transform: translate(30px, 60px);
+    font-size: 2rem;
+    /* z-index: -2; */
+}
+.hero .intro-info .social-links .link-1 i{
+    position: absolute;
+    /* top: -50px; */
+    left:.6rem;
+    top: .5rem;
+    transform: rotateZ(-10deg);
+}
+.hero .intro-info .social-links .link-2{
+    position: absolute;
+    transform: translate(-130px, 60px);
+    font-size: 2rem;
+    /* z-index: -2; */
+    
+}
+.hero .intro-info .social-links .link-2 i{
+    position: absolute;
+    /* top: -50px; */
+    left:.6rem;
+    top: .5rem;
+    transform: rotateZ(20deg);
+}
+.hero .intro-info .social-links .link-3{
+    position: absolute;
+    transform: translate(-250px, -20px);
+    font-size: 2rem;
+    /* z-index: -2; */
+}
+.hero .intro-info .social-links .link-3 i{
+    position: absolute;
+    /* top: -50px; */
+    left:.6rem;
+    top: .5rem;
+    transform: rotateZ(40deg);
+}
+.hero .intro-info .social-links .link-4{
+    position: absolute;
+    transform: translate(-310px, -130px);
+    font-size: 2rem;
+    /* z-index: -2; */
+}
+.hero .intro-info .social-links .link-4 i{
+    position: absolute;
+    /* top: -50px; */
+    left:.6rem;
+    top: .5rem;
+    transform: rotateZ(70deg);
+}
+.hero .intro-info .intro-head .dev-hello {
+    position: absolute;
+    display: flex;
+    font-size: 20vw;
+    top: -25%;
+    left: 0;
+    font-family: "Montserrat";
+    color: rgb(68, 64, 64);
+    z-index: -5;
+    
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.about-me .grid-view{
+    display: grid;
+    grid-template-columns: 
+    50%  50%;
+    grid-gap: 20px;
+}
+.about-me .container .cols{
+    padding: 0 15px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+}
+.about-me .container .cols p{
+    padding-bottom: 1em;
+
+}
+.about-me .container .what-i-do .flex-b3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    margin: 0 auto;
+}
+.about-me .container .what-i-do .flex-b3 >div{
+    padding: 0 15px;
+    text-align: justify;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+}
+
+/* ================ My Skills ========== */
+.about-me .container .my-skills{
+    position: relative;
+}
+.about-me .container .my-skills .outer-parallax{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 150px 0;
+    font-size: 100px;
+    color: #6D83F2;
+}
+.about-me .container .my-skills .inner-parallax p{
+    
+    position: absolute;
+}
+.about-me .container .my-skills .inner-parallax  {
+   position: absolute;
+   z-index: -50;
+   color: #9aa7e7;
+    width: 100%;
+    height: 100%;
+    /* background: chartreuse; */
+}

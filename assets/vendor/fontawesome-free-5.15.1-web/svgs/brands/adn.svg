@@ -1,1 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 167.5l64.9 98.8H183.1l64.9-98.8zM496 256c0 136.9-111.1 248-248 248S0 392.9 0 256 111.1 8 248 8s248 111.1 248 248zm-99.8 82.7L248 115.5 99.8 338.7h30.4l33.6-51.7h168.6l33.6 51.7h30.2z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 440 512"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="adn.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1700"
+     inkscape:window-height="931"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1.2153398"
+     inkscape:cx="350.94931"
+     inkscape:cy="223.72231"
+     inkscape:window-x="-9"
+     inkscape:window-y="89"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+  <path
+     d="M 248,360 C 191.4,360 144,312.6 144,256 144,199.4 191.4,152 248,152 351.06866,140.00206 428.56449,-9.2936612 248,8 111,8 0,119 0,256 c 0,137 111,248 248,248 171.23026,-7.43264 85.86361,-134.07498 0,-144 z"
+     id="path2"
+     sodipodi:nodetypes="csccscc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:303.239px;line-height:1.05;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';stroke-width:1.57937"
+     x="175.51767"
+     y="342.66168"
+     id="text14"
+     transform="scale(0.93791034,1.0662)"><tspan
+       sodipodi:role="line"
+       id="tspan12"
+       x="175.51767"
+       y="342.66168"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';stroke-width:1.57937">+</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:303.239px;line-height:1.05;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';stroke-width:1.57937"
+     x="317.57172"
+     y="342.55634"
+     id="text14-0"
+     transform="scale(0.93791034,1.0662)"><tspan
+       sodipodi:role="line"
+       id="tspan12-7"
+       x="317.57172"
+       y="342.55634"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';stroke-width:1.57937">+</tspan></text>
+</svg>
