@@ -8,12 +8,13 @@ $(window).bind('scroll',function(e){
 
 function parallaxScroll(){
     var scr = $(window).scrollTop();
+    // var skills = document.getElementsByName('my-skills');
    var scrolled =document.getElementsByName('inner-parallax').length - $(window).scrollTop();
    var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
    $('.inner-parallax').css('top',(0-(scrolled*.23))+'px');
-   if(scr<730){
+   if(scr<690){
        $('.hero-img').css('top',(0-(scrolled*1.1))+'px');
-       $('.hero-img').css('right',(0-(scrolled*.25))+'px');
+       $('.hero-img').css('right',(0-(scrolled*.3))+'px');
     }
     else
     {
