@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <link href =test.css rel="stylesheet">
+    <!-- <link href =main.css rel="stylesheet"> -->
+    <!-- <link href =util.css rel="stylesheet"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
@@ -63,9 +66,9 @@
                 </div>
             </div>
         </div>
-        <div class="svg-style">
+        <!-- <div class="svg-style">
             <img src="download.svg" alt="">
-        </div>
+        </div> -->
         <div id="hero-img" class="hero-img" ><img  src="for_w_sm.png"></div>
         
         
@@ -303,12 +306,39 @@
         </div>
     </section>
     <section id="contact-me" class="contact-me">
+        <div class="container">
+            <form
+            target="_blank"
+            action="https://formspree.io/f/mgepykgo"
+            method="POST"
+            >
+            <div class="name-contact">
+                <label>
+                    <input class="input100" type="text" name="name" placeholder="Your Name">
+                </label>
+            </div>
+            <div class="email-contact">
+                <label>
+                    <input  class="input100" type="text" name="from" placeholder="Your Email">
+                </label>
+            </div>
+            <div class="message-contact">
+                <label>
+            
+                    <textarea  class="input100" name="message" placeholder="Say Something..."></textarea>
+                </label>
+            </div>
         
+            <button class="submit-btn" type="submit">Send</button>
+
+             </form>
+        </div>
     </section>
 
     <script src="test.js"></script>
+    <!-- <script src="main.js"></script> -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="scroll.js"></script>
-    
+   
 </body>
 </html>
