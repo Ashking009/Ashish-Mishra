@@ -4,22 +4,22 @@ $(window).bind('scroll',function(e){
     parallaxScroll();
 });
 
-// $(window).trigger("scroll")
-
 function parallaxScroll(){
     var scr = $(window).scrollTop();
-    // var skills = document.getElementsByName('my-skills');
+    var nel = $("#about").offset().top -$("#hero-img").height()
+    
+    var scrolled = $('#hero-img').length - $(window).scrollTop();
    var scrolled =document.getElementsByName('inner-parallax').length - $(window).scrollTop();
-   var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
+//    var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
    $('.inner-parallax').css('top',(0-(scrolled*.23))+'px');
-   if(scr<690){
-       $('.hero-img').css('top',(0-(scrolled*1.1))+'px');
+   if(scr< nel){
+       $('.hero-img').css('top',(0-(scrolled*1.05))+'px');
        $('.hero-img').css('right',(0-(scrolled*.3))+'px');
     }
-    else
+   
     {
-        $('.hero-img').css('top',('top'-(scrolled*1.1))+'px');
-        $('.hero-img').css('right',('right'-(scrolled*.25))+'px');
+        $('.hero-img').css('top',('top'-(scrolled*1.05))+'px');
+        $('.hero-img').css('right',('right'-(scrolled*.3))+'px');
     }
    
   

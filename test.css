@@ -11,7 +11,7 @@
 body{
     width: 100%;
     height: 100%;
-    background: rgb(49, 46, 46);
+    background: rgb(54, 51, 51);
     color: #ddd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
@@ -57,7 +57,9 @@ a:hover{
     padding-bottom: 1em;
 }
 .container{
-    padding:100px 200px;
+    padding:50px 150px ;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 .container-thin{
     padding: 100px;
@@ -91,6 +93,30 @@ a:hover{
     /* background: linear-gradient(134deg,black 10%,white 90%); */
     background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
    
+}
+.submit-btn {
+   
+    padding: .5em 2em;
+    background: linear-gradient(134deg,#5a74f7 20%,   #6A98F0 90%);
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    font-size: 1em;
+    margin: .5em .1em;
+    border: none;
+    cursor: pointer;
+    font-family: "Montserrat";
+    color: white;
+    /* font-size: 2em; */
+    font-weight: 600;
+    letter-spacing: 0.1em;
+
+}
+.submit-btn:hover{
+    transition:all 0.3s;
+    /* background: linear-gradient(134deg,black 10%,white 90%); */
+    background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
+    color: #C7D0FF;
 }
 
 .header{
@@ -258,11 +284,11 @@ a:hover{
     /* width: 100%; */
     margin-left: auto;
     position: absolute;
-    right: 0px;
+    right: 0;
     opacity: 1;
     bottom: 0;
     /* width: 100%; */
-    max-height: auto;
+    max-height: 100%;
     max-width: 100%;
     /* bottom: 0; */
     /* align-items: right; */
@@ -284,10 +310,12 @@ a:hover{
    /* height: auto; */
     /* width: 100%; */
    
-    max-height: 100%;
+    max-height: 100vh;
     max-width: 100%;
     min-width: 160px;
-    min-height: 320px;
+    min-height: 280px;
+    height: 100%;
+    bottom: 0;
     
     /* bottom: 0; */
     /* align-items: right; */
@@ -401,10 +429,10 @@ a:hover{
     animation-delay: 10s;
 
 }
-.hero .intro-info .cta-btn{
+.hero .intro-info .main-cta-btn{
     margin: 1rem 0;
 }
-.hero .intro-info .cta-btn a{
+.hero .intro-info .main-cta-btn a{
    
     padding: .5rem 2rem;
     background: linear-gradient(134deg,#5a74f7 20%,   #6A98F0 90%);
@@ -412,7 +440,7 @@ a:hover{
     transition: 0.3s ease-in-out;
 
 }
-.hero .intro-info .cta-btn a:hover{
+.hero .intro-info .main-cta-btn a:hover{
     transition: 0.3s;
     /* background: linear-gradient(134deg,black 10%,white 90%); */
     background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
@@ -544,7 +572,7 @@ a:hover{
 .about-me .grid-view{
     display: grid;
     grid-template-columns: 
-    70%  30%;
+    65%  35%;
     grid-gap: 20px;
 }
 .about-me .container .cols{
@@ -647,3 +675,138 @@ a:hover{
 
 
 /* ====================== Contact Form ================== */
+.contact-me .container .wrapper-all{
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: crimson; */
+}
+.contact-me .container .wrapper-all .contact-image{
+    background: url("small-squares.svg");
+    background-size: cover;
+    flex:40%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.contact-me .container .wrapper-all .contact-image .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contact-me .links{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    padding:.5em;
+}
+.links >a{
+    padding: .1em 0;
+}
+.mail{
+    padding:1em .5em;
+    font-size: 1.2em;
+}
+.contact-me .container .wrapper-all .contact-image img{
+   min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border-radius: 50px;
+}
+.contact-me .container .wrapper-contact{
+    width: 550px;
+    margin: 0 auto;
+}
+.contact-me .container .wrapper-contact .contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(63, 58, 58);
+    padding: 2em;
+    
+}
+.contact-me .container .wrapper-contact .contact-form >div{
+    padding: .5em 1em;
+}
+.contact-me .container  .wrap-inputs{
+    width: 100%;
+   
+}
+.contact-me .container  .wrap-inputs .inputs{
+    width: 100%;
+   
+    font-family: "Montserrat";
+    border-radius: 5px;
+    line-height: 1.2;
+    padding: 1em ;
+    min-height: 3em;
+    /* background: rgb(70, 64, 64); */
+    /* color: white; */
+    font-weight: 600;
+}
+.contact-me .container  .wrap-inputs .message-contact{
+    width: 100%;
+    min-height: 8em;
+}
+.contact-me .container .submit-btn{
+  margin: 0 auto;
+}
+input {
+	outline: none;
+	border: none;
+}
+textarea {
+    outline: none;
+    border: none;
+  }
+  /* ==============Footer============== */
+  .footer{
+      background: var(--col-pri);
+  }
+  .footer .footer-text{
+      margin: 0 auto;
+      width: fit-content;
+      
+  }
+  .footer .footer-text i{
+      color: red;
+      transition:all 5s;
+  }
+  .footer .footer-text span{
+      font-size: 1.5em;
+      display: block;
+      padding: .5em; 
+      font-family: "Montserrat";
+     
+  }
+  .footer .footer-text span:hover i{
+      animation: pulse 3s ease-in-out infinite;
+      
+  }
+  @keyframes pulse{
+      0%{
+          transform: scale(1);
+      }
+      20%{
+          transform: scale(1.4);
+      }
+      35%{
+          transform: scale(1);
+      }
+      55%{
+          transform: scale(1.4);
+      }
+      70%{
+          transform: scale(1);
+      }
+      100%{
+          transform: scale(1);
+      }
+  }

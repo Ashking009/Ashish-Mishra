@@ -41,7 +41,7 @@
         <div class="intro-info">
             <div class="intro-head"> <div class="dev-hello"><p>Hello</p></div><h3>I'm </h3><h1>Ashish<br> Mishra</h1></div>
             <div class="intro-sub"><p>Developer</p></div>
-            <div class="cta-btn">
+            <div class="main-cta-btn">
                 <a href="#">Resume</a> 
             </div>
             
@@ -74,11 +74,12 @@
         
     </section>
     
-    <section class="about-me">
+    <section  id="about" class="about-me">
         <div class="container">
            <div id="section-title"><h2>About Me</h2></div>
-            <div class="grid-view">
+            <div id="image-upto" class="grid-view">
                 <div class="about-para cols">
+                    
                     <p>
                         Hey, I am Ashish Mishra, a Passionate self-taught developer based
                         in India, currently persuing B.tech from National Institute of Technology,
@@ -97,7 +98,7 @@
       
 
             <!-- My-Skills -->
-            <div class="my-skills" style="position: relative;">
+            <div id="skills" class="my-skills" style="position: relative;">
                 <div id="section-subtitle">
                     <h2>My Skills</h2>
                 </div>
@@ -121,7 +122,7 @@
             </div> <!--End My-Skills -->
 
             <!-- What-I-Do -->
-            <div class="what-i-do"> 
+            <div id="what-i-do" class="what-i-do"> 
                 <div id="section-subtitle"><h2>What I Do</h2></div>
                 <div class="flex-b3">
                     <div class="web dev">
@@ -170,7 +171,7 @@
                             Mad Island is a action, adventerous skill based topdown game build with Pygame library in Python. I have used Tiled to create map provided by mapeditor.org . 
                         </p>
                         <p>
-                            Protagonist is stranded in an unknown Island and everyone wants to kill him. He runs around the Island enimies trying to make sense what is going on.
+                            Protagonist is stranded in an unknown Island and everyone wants to kill him. He runs around the Island taking over enimies, trying to make sense what is going on.
                         </p>
                     </div>
                     <div class="more-info">
@@ -306,34 +307,68 @@
         </div>
     </section>
     <section id="contact-me" class="contact-me">
+      
         <div class="container">
-            <form
-            target="_blank"
+           <div id="section-title">
+               <h2>Contact Me</h2>
+           </div>
+              
+          <div class="wrapper-all">
+              <div class="contact-image">
+                <img src="giphy.gif" alt="">
+                <div class="social">
+                        <div class="links">
+                        <a href="#"><i class="fab fa-github-square"></i></a>
+                   
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    
+                        <a href="#"><i class="fab fa-instagram-square"></i></a>
+                   
+                        <a href="#"><i class="fab fa-codepen"></i></a>
+                        </div> 
+                        <div class="mail">
+                            <a href="mailto:mishrashish0@gmail.com">@email</a>
+                        </div>
+                </div> 
+                </div>
+    
+            <div class="wrapper-contact">
+            <form class="contact-form"
+            novalidate
             action="https://formspree.io/f/mgepykgo"
             method="POST"
             >
-            <div class="name-contact">
+            
+            <div class="wrap-inputs wrap-name-contact">
                 <label>
-                    <input class="input100" type="text" name="name" placeholder="Your Name">
+                    <input class="inputs name-contact" type="text" name="name" placeholder="Your Name">
                 </label>
             </div>
-            <div class="email-contact">
+            <div class="wrap-inputs wrap-email-contact">
                 <label>
-                    <input  class="input100" type="text" name="from" placeholder="Your Email">
+                    <input  class="inputs email-contact" type="text" name="email" placeholder="Your Email">
                 </label>
             </div>
-            <div class="message-contact">
+            <div class="wrap-inputs wrap-message-contact">
                 <label>
             
-                    <textarea  class="input100" name="message" placeholder="Say Something..."></textarea>
+                    <textarea  class="inputs message-contact" name="message" placeholder="Say Something..."></textarea>
                 </label>
             </div>
-        
-            <button class="submit-btn" type="submit">Send</button>
-
-             </form>
+            <div class=" wrap-button-contact">
+                <button class="submit-btn" type="submit">Send</button>
+            </div>
+     
+            </form>
+        </div>
+          </div>
         </div>
     </section>
+    <footer class="footer" id="footer">
+        <div class="footer-text">
+            <span>made with <i class="fas fa-heart"></i> by me</span>
+        </div>
+    </footer>
 
     <script src="test.js"></script>
     <!-- <script src="main.js"></script> -->
