@@ -13,12 +13,12 @@ function parallaxScroll(){
 //    var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
    $('.inner-parallax').css('top',(0-(scrolled*.23))+'px');
    if(scr< nel){
-       $('.hero-img').css('top',(0-(scrolled*1.05))+'px');
+       $('.hero-img').css('top',(0-(scrolled*1))+'px');
        $('.hero-img').css('right',(0-(scrolled*.3))+'px');
     }
    
     {
-        $('.hero-img').css('top',('top'-(scrolled*1.05))+'px');
+        $('.hero-img').css('top',('top'-(scrolled*1))+'px');
         $('.hero-img').css('right',('right'-(scrolled*.3))+'px');
     }
    
