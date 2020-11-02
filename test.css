@@ -589,17 +589,29 @@ a:hover{
         display: none;
     }
 }
+@media(min-width:992px)
+{
+    
+    .hero .hero-img-tab img{
+        display: none;
+        }
+}
 @media(max-width:768px)
-{.hero .hero-img-tab img{
+{
+    .hero .hero-img-tab img{
     transform: translateX(-60%);
     position: absolute;
     z-index: -10;
     max-width: 400px;
     left: 100%;
     top: -40vh;
-}}
+    }
+}
 @media(max-width:768px)
 {
+    .hero{
+        overflow: hidden;
+    }
     .hero .intro-info .intro-head h1{
         font-size: 4rem;
         line-height: 4rem;
