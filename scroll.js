@@ -9,9 +9,9 @@ function parallaxScroll(){
     var nel = $("#about").offset().top -$("#hero-img").height()
     
     var scrolled = $('#hero-img').length - $(window).scrollTop();
-   var scrolled =document.getElementsByName('inner-parallax').length - $(window).scrollTop();
+   var scrolled1 =$('inner-parallax').length - $(window).scrollTop();
 //    var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
-   $('.inner-parallax').css('top',(0-(scrolled*.23))+'px');
+   $('.inner-parallax').css('top',(0-(scrolled1*.23))+'px');
    if(scr< nel){
        $('.hero-img').css('top',(0-(scrolled*1))+'px');
        $('.hero-img').css('right',(0-(scrolled*.3))+'px');

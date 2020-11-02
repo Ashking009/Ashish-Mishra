@@ -258,8 +258,8 @@ a:hover{
 
 .nav-btn{
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     z-index: 1000;
     background: transparent;
     cursor: pointer;
@@ -1054,6 +1054,8 @@ textarea {
   .footer .footer-text{
       margin: 0 auto;
       width: fit-content;
+      margin-top: 50px;
+    
       
   }
   .footer .footer-text i{
@@ -1067,7 +1069,7 @@ textarea {
       font-family: "Montserrat";
      
   }
-  .footer .footer-text span:hover i{
+  .footer .footer-text span i{
       animation: pulse 3s ease-in-out infinite;
       
   }
