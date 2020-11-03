@@ -9,6 +9,7 @@
    
 }
 html{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -17,15 +18,16 @@ html{
 }
 body{
     
-    background: rgb(29, 27, 27);
+    background: rgb(0, 0, 0);
     color: #ddd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
    
 }
 
 h1,h2,h3,h4,h5,h6{
     color: white;
     display: block;
+    font-family: "Montserrat";
 }
 a{
     color: white;
@@ -36,6 +38,9 @@ a{
 a:hover{
     color: #C7D0FF;
     
+}
+.active a{
+    color:  #6D83F2;
 }
 #section-title{
     text-align: center;
@@ -80,25 +85,18 @@ a:hover{
         padding: 25px 20px;
     }
     #section-title{
-        text-align: center;
         font-size: 1.4rem;
-        font-weight: 400;
-        font-family: "Montserrat";
         padding: 30px 0;
-        text-transform: uppercase;
+     
     }
     #section-subtitle{
-        text-align: center;
         font-size: 1.2rem;
-        font-weight: 400;
-        font-family: "Montserrat";
         padding: 20px 0;
-        text-transform: uppercase;
     }
 }
 @media (max-width:480px){
     .container{
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     p{
         text-align: initial;
@@ -176,6 +174,7 @@ a:hover{
     background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
     color: #C7D0FF;
 }
+/* color: #C7D0FF; */
 
 
 
@@ -187,7 +186,7 @@ a:hover{
 }
 .header .header-wrapper{
     width: 100%;
-    /* height: 100%; */
+    height:auto;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -195,7 +194,7 @@ a:hover{
     padding: 0 5%;
     z-index: 100;
     /* background:linear-gradient(to right,rgba(0,0,0,0.1) ,rgba(0,0,0,0.1)); */
-    background: rgba(49, 46, 46,.7);
+    background: rgba(0, 0, 0, 0.7);
     transition: ease-in-out .3s;
 
 }
@@ -246,7 +245,10 @@ a:hover{
         transition: all ease-in-out .2s;
         transform: translateY(-100%);
     }
-
+    .nav-bar .menu a{
+        font-size: 2em;
+        display: block;
+    }
 
     .nav-bar .menu{
         display: flex;
@@ -321,6 +323,10 @@ a:hover{
         width: 100%;
         height: auto;
     }
+    .nav-bar .menu a{
+        font-size: 1.5em;
+        display: block;
+    }
 }
 .hero{
     width: 100%;
@@ -334,7 +340,7 @@ a:hover{
 .hero .hero-img{
     margin-left: auto;
     position: absolute;
-    right: 0;
+    right: 0px;
     opacity: 1;
     bottom: 0;
     max-height: 100%;
@@ -347,12 +353,13 @@ a:hover{
     min-height: 280px;
     height: 100%;
     bottom: 0;
+    /* right: -40px; */
     z-index: -10;
 }
 .hero .svg-style{
-    width: 45%;
+    width: 40%;
     position: absolute;
-    top: -100px;
+    top: 0vh;
     right: 0;
     z-index: -100;
 }
@@ -413,7 +420,7 @@ a:hover{
     font-size: 3rem;
     padding: .2rem 2rem;
     position: relative;
-    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.2));
     overflow: hidden;
     margin: 1rem 0;
     border-radius: 5px;
@@ -458,12 +465,20 @@ a:hover{
     animation-delay: 10s;
 
 }
+.hero .intro-info .cta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 .hero .intro-info .main-cta-btn{
-    margin: 1rem 0;
+    margin: 1rem .2rem;
+    display: block;
+    font-family: "Montserrat";
 }
 .hero .intro-info .main-cta-btn a{
    
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     background: linear-gradient(134deg,#5a74f7 20%,   #6A98F0 90%);
     border-radius: 5px;
     transition: 0.3s ease-in-out;
@@ -813,6 +828,7 @@ a:hover{
 /* ================ My Skills ========== */
 .about-me .container .my-skills{
     position: relative;
+    /* overflow: hidden; */
 }
 .about-me .container .my-skills .outer-parallax{
     display: flex;
@@ -833,7 +849,7 @@ a:hover{
    position: absolute;
    z-index: -50;
    color: #9aa7e7;
-   opacity: .5;
+   opacity: .7;
     width: 100%;
     height: 100%;
     /* background: chartreuse; */
@@ -861,7 +877,7 @@ a:hover{
     letter-spacing: 0.1em;
     grid-gap: 20px;
     text-align: justify;
-    /* padding: 15px; */
+    padding: 15px;
     margin: 50px 0;
 }
 
@@ -919,7 +935,7 @@ a:hover{
 {
     .my-projects .container .project-wrapper{
         
-        margin: 20px 0;
+        margin: 50px 0;
     }
     .my-projects .container .project-wrapper .project-text .project-content h2{
         font-size: 1.2em;
@@ -953,6 +969,7 @@ a:hover{
     justify-content: space-evenly;
     border-radius: 10px;
     max-width: 550px;
+    height: auto;
 }
 .contact-me .container .wrapper-all .contact-image .social{
     display: flex;
