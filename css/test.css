@@ -96,7 +96,7 @@ a:hover{
 }
 @media (max-width:480px){
     .container{
-        padding: 20px 20px;
+        padding: 30px 20px;
     }
     p{
         text-align: initial;
@@ -916,7 +916,7 @@ a:hover{
         max-width: 150px;
     }
     .about-me .container .what-i-do .game:hover img{
-        transform: rotateZ(-10deg) translateY(-140px);
+        transform: rotateZ(-10deg) translate(-20px,-140px);
         transition: .7s;
     }
     .about-me .container .what-i-do .flex-b3{
@@ -943,7 +943,16 @@ a:hover{
         width: 100%;
     }
 }
-
+@media(max-width:480px)
+{
+    .about-me .container .what-i-do .game img{
+        max-width: 100px;
+    }
+    .about-me .container .what-i-do .game:hover img{
+        transform: rotateZ(-10deg) translate(-60px,-120px);
+        transition: .7s;
+    }
+}
 
 /* ================ My Skills ========== */
 .about-me .container .my-skills{
@@ -1089,6 +1098,7 @@ a:hover{
     justify-content: space-evenly;
     border-radius: 10px;
     max-width: 550px;
+    max-height: fit-content;
     height: auto;
 }
 .contact-me .container .wrapper-all .contact-image .social{
@@ -1181,6 +1191,11 @@ textarea {
     }
     .contact-me .container  .wrap-inputs .inputs{
         font-size: .7em;
+    }
+    .contact-me .container .wrapper-all .contact-image{
+      
+        max-height: 250px;
+       
     }
 }
 
