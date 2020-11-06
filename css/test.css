@@ -201,16 +201,17 @@ a:hover{
 .logo{
     padding: 10px 0;
     transition: ease-in-out .3s;
+    overflow: hidden;
 }
-.logo #header-blob{
+#header-blob{
     position: absolute;
-   top: -100%;
-   left: -50%;
+   top: -90%;
+   left: 3%;
    transition: ease-in-out 0.3s;
    fill: #5a74f7;
   width: 200px;
-  z-index: -100;
-  animation: rot-move-resize 10s linear infinite ;
+  z-index: 1000;
+  animation: rot-move-resize 10s linear infinite reverse;
   transform-origin: 50% 50%;
 }
 .logo img{
@@ -244,11 +245,10 @@ a:hover{
     display: none;
 }
 @media(max-width:768px){
-    /* .header .logo #header-blob{
-        position: absolute;
-        top: -50px;
-        left: -20px;
-    } */
+    #header-blob{
+        left: -3%;
+        /* top: -100%; */
+    } 
     .nav-bar{
         position: fixed;
         background: #303030;
