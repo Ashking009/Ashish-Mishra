@@ -1009,6 +1009,10 @@ a:hover{
     padding: 15px;
     margin: 50px 0;
 }
+.my-projects .container .project-wrapper .project-text{
+    background: #303030;
+    padding: 15px;
+}
 
 .my-projects .container .project-wrapper .project-text .project-content h2{
     padding: .5em 0;
@@ -1138,8 +1142,9 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(63, 58, 58);
+    background:#303030;
     padding: 2em;
+    border-radius: 10px;
     
 }
 .contact-me .container .wrapper-contact .contact-form >div{
@@ -1245,3 +1250,33 @@ textarea {
           transform: scale(1);
       }
   }
+
+ 
+.blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #5a74f7;
+  width: 10vmax;
+  z-index: -100;
+  animation: rot-move-resize 10s linear infinite ;
+  transform-origin: 50% 50%;
+}
+
+
+
+@keyframes rot-move-resize {
+  0%   { transform: scale(.9, .9) translate(4px, 2px) rotate(0deg);}
+  10%  { transform: scale(.9, .9) translate(3px, 2px) rotate(36deg);}
+  20%  { transform: scale(.9, .88) translate(4px, -2px) rotate(70deg);}
+  30%  { transform: scale(.85, .9) translate(2px, 2px) rotate(105deg);}
+  40%  { transform: scale(.85, .8) translate(-1px, 4px) rotate(140deg);}
+  50%  { transform: scale(.9 ,.83) translate(3px, 2px) rotate(180deg);}
+  60%  { transform: scale(.9, .9) translate(3px, -1px) rotate(215deg);}
+  70%  { transform: scale(.95, .8) translate(3px, 2px) rotate(250deg);}
+  80%  { transform: scale(.9, .8) translate(2px, -2px) rotate(280deg);}
+  90%  { transform: scale(.95, .9) translate(2px, 2px) rotate(320deg);}
+  100% { transform: scale(.9 ,.9) translate(4px, 2px) rotate(360deg);}
+}
+
+

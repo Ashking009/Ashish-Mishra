@@ -85,5 +85,20 @@ $(document).ready(function(){
     });
   });
 
+
+
+  eyeFollow = (event) => {
+    anime({
+      targets: ".idiot-eyes",
+      translateY: event.clientY * 0.05 + "px",
+      translateX: event.clientX * 0.02 + "px",
+      duration: 500
+    });
+  };
+  
+  window.addEventListener("mousemove", eyeFollow);
+  
+  $(".blob").draggable();
 })(jQuery);
+
 

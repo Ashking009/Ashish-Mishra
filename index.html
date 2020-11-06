@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link rel="stylesheet" href="assets/vendor/jquery-ui-1.12.1/jquery-ui-1.12.1/jquery-ui.theme.min.css">
     <link href ="css/test.css" rel="stylesheet">
     <link href="img/icon.png" rel="icon">
     <link href="img/apple-icon.png" rel="apple-touch-icon">
@@ -19,6 +19,7 @@
 <body>
     <header class="header" id="header">
         <div id="header-wrapper" class="header-wrapper">
+            
             <div id="logo" class="logo"><a href="index.html">
                 <img src="img/main-sign-blur.png" ></a>
             </div>
@@ -36,9 +37,11 @@
             </div>
         </div>
     </header>
-
+    
     <section class="hero" id="hero">
        
+        
+      
         <div class="intro-info">
             <div class="intro-head"> <div class="dev-hello"><p>Hello</p></div><h3>I'm </h3><h1>Ashish<br> Mishra</h1></div>
             <div class="intro-sub"><p>Developer</p></div>
@@ -158,7 +161,7 @@
                         </div>
                     </div>
                     
-                    <div class="graphics">
+                    <div class="graphics" style="position: relative;">
                         <div class="graphics-design ">
                             <h4 class="align-center">Graphic Design</h4>
                             <p>
@@ -166,6 +169,14 @@
                             I like the idea of visual story telling, I can't emphasize enough on what value can good graphic can add to worth of Something, it can also gives life to imagination.
                             I do Illustrations and UX/UI designs for commercial projects too and animation with blender in my spare time. 
                             </p>
+                            <div class="blob" style=" top:-10%; left: 90%; width: 10vw; z-index: -100;">
+                                <svg viewBox="0 0 310 350">
+                                    <path
+                                    id="s1" 
+                                    style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                                    d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,7 +189,15 @@
     </section><!-- End About me-->
 
     <!-- =======My Projects=========== -->
-    <section id="my-projects" class="my-projects">
+    <section id="my-projects" class="my-projects" style="position: relative;">
+        <div class="blob" style=" top:10%; left: 10%; width: 7vw; z-index: -100;">
+            <svg viewBox="0 0 310 350">
+                <path
+                id="s1" 
+                style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+            </svg>
+        </div>
         <div class="container">
             <div id="section-title"><h2>My Projects</h2></div>
 
@@ -281,11 +300,20 @@
                     </div>
                     
                 </div>
-                <div class="project-view">
+                <div class="project-view" style="position: relative;">
                     <div class="project-graphics">
-                         <img src="img/mad-island-360.jpg" alt="">
+                         <img src="img/ethination.jpg" alt="">
+                    </div>
+                    <div class="blob" style=" top:-20%; left: 50%; width: 5vw; z-index: -100;">
+                        <svg viewBox="0 0 310 350">
+                            <path
+                            id="s1" 
+                            style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                            d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+                        </svg>
                     </div>
                  </div>
+                 
             </div>
 
             <div class="project-wrapper">
@@ -327,6 +355,17 @@
 
         </div>
     </section>
+    <div class="boom decoration" style="position: relative;">
+        <div class="blob" style=" top:10%; left: 50%; width: 10vw; z-index: -100;">
+            <svg viewBox="0 0 310 350">
+                <path
+                id="s1" 
+                style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+            </svg>
+        </div>
+    </div>
+      
     <section id="contact-me" class="contact-me">
       
         <div class="container">
@@ -385,20 +424,10 @@
           </div>
         </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="300px" height="300px" viewBox="0 0 300 300">
-        <polygon
-      fill = "blue"
-      stroke = "#ED1C24"
-      stroke-width = "5"
-      points = "279.1,160.8 195.2,193.3 174.4,280.8   117.6,211.1 27.9,218.3 76.7,142.7 42.1,59.6 129.1,82.7 197.4,24.1 202.3,114  "/>
-      </svg>
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="width: 300px; height: 300px;" viewBox="0 0 300 300">
-        <circle cx="100" cy="100" r="75" fill="blue" style="fill:deepPink;" />
-        </svg>
+     
+  
         
-
-        
-      
+    
     <footer class="footer" id="footer">
         <div class="footer-text">
             <span>made with <i class="fas fa-heart"></i> by me</span>
