@@ -235,7 +235,7 @@ a:hover{
 @media(max-width:768px){
     .nav-bar{
         position: fixed;
-        background: rgb(48, 43, 43);
+        background: #303030;
         height: 100vh;
         top: 0;
         bottom: 0;
@@ -1104,6 +1104,7 @@ a:hover{
     max-width: 550px;
     max-height: fit-content;
     height: auto;
+    max-width: 400px;
 }
 .contact-me .container .wrapper-all .contact-image .social{
     display: flex;
@@ -1124,13 +1125,11 @@ a:hover{
     padding:1em .5em;
     font-size: 1.2em;
 }
-.contact-me .container .wrapper-all .contact-image img{
-   min-width: 200px;
-    max-width: 300px;
-    width: 100%;
-    padding: 20px;
-    display: block;
-    border-radius: 50px;
+.contact-me .container .wrapper-all .contact-image {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+  
 }
 .contact-me .container .wrapper-contact{
     width: 550px;
@@ -1279,4 +1278,11 @@ textarea {
   100% { transform: scale(.9 ,.9) translate(4px, 2px) rotate(360deg);}
 }
 
-
+.bob-updown{
+    animation: bob 2s ease-in-out infinite alternate-reverse;
+}
+@keyframes bob{
+    50%{
+            transform: translateY(10px);
+    }
+}

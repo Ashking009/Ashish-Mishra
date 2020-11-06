@@ -1,6 +1,5 @@
 
 const navBtn = document.querySelector('.nav-btn');
-// const navlinks = document.getElementsByClassName('hidelinks');
 navBtn.addEventListener('click', () =>{
     document.body.classList.toggle('nav-open');
 });
@@ -11,11 +10,9 @@ $(window).bind('scroll',function(e){
 
 function parallaxScroll(){
     var scr = $(window).scrollTop();
-    var nel = $("#about").offset().top -$("#hero-img").height()
-    
+    var nel = $("#about").offset().top -$("#hero-img").height();
     var scrolled = $('#hero-img').length - $(window).scrollTop();
    var scrolled1 =$('inner-parallax').length - $(window).scrollTop();
-//    var scrolled =document.getElementsByName('hero-img').length - $(window).scrollTop();  
    $('.inner-parallax').css('top',(0-(scrolled1*.23))+'px');
    if(scr< nel){
        $('.hero-img').css('top',(0-(scrolled*1))+'px');
@@ -27,24 +24,17 @@ function parallaxScroll(){
         $('.hero-img').css('right',('right'-(scrolled*.3))+'px');
     }
    
-  
-//    $('.hero-img').css('width',('width' - (scrolled*0.001))+'px');
-//    $('.hero-img').css('width =40%', '40% ' + parseInt(-scrolled) + 'px' + ', 0% ' + parseInt(-scrolled / 2) + 'px, center top');
-  
-  
 }
 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
    
-  if (document.body.scrollTop >= 20 || document.documentElement.scrollTop >= 20) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("header-wrapper").style.height = "50px";
     document.getElementById("logo").style.width = "60px";
     document.getElementById("logo").style.padding = "5px 0";
     
-    // document.getElementById("hero-img").style.width = "50px";
-
   } else {
     document.getElementById("header-wrapper").style.height = "100px";
     document.getElementById("logo").style.width = "120px";
@@ -84,21 +74,6 @@ $(document).ready(function(){
       $("body").removeClass("nav-open");
     });
   });
-
-
-
-  eyeFollow = (event) => {
-    anime({
-      targets: ".idiot-eyes",
-      translateY: event.clientY * 0.05 + "px",
-      translateX: event.clientX * 0.02 + "px",
-      duration: 500
-    });
-  };
-  
-  window.addEventListener("mousemove", eyeFollow);
-  
-  $(".blob").draggable();
 })(jQuery);
 
 
