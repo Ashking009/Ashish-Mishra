@@ -30,18 +30,19 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
    
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop >= 20 || document.documentElement.scrollTop >= 20) {
     document.getElementById("header-wrapper").style.height = "50px";
     document.getElementById("logo").style.width = "60px";
     document.getElementById("logo").style.padding = "5px 0";
+    document.getElementById("header-blob").style.width = "100px"
     
   } else {
     document.getElementById("header-wrapper").style.height = "100px";
     document.getElementById("logo").style.width = "120px";
     document.getElementById("logo").style.padding = "10px 0";
+    document.getElementById("header-blob").style.width = "200px"
   }
 }
-
 
  
   var nav_sections = $('section');

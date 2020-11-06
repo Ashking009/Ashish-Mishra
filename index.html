@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    
+
     <link href="img/icon.png" rel="icon">
     <link href="img/apple-icon.png" rel="apple-touch-icon">
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/vendor/google-fonts/google-fonts.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&family=Raleway:wght@200;400;600;800&display=swap" rel="stylesheet"> -->
-    
+
     <title>Ashish Mishra</title>
 
-    <link href ="css/test.css" rel="stylesheet">
+    <link href="css/test.css" rel="stylesheet">
     <link href="assets/vendor/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="header" id="header">
         <div id="header-wrapper" class="header-wrapper">
-            
-            <div id="logo" class="logo"><a href="index.html">
-                <img src="img/logo.png" ></a>
+
+            <div id="logo" class="logo" style="position: relative;"><a href="index.html">
+                <div  id="header-blob" style="  z-index: -100;">
+                    <svg viewBox="0 0 310 350">
+                        <path id="s1"
+                            style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                            d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
+                    </svg>
+                </div>    
+                <img src="img/logo.png"></a>
+                    
             </div>
             <button class="nav-btn">
                 <div class="hamburger"></div>
@@ -31,25 +41,33 @@
                     <li class="links"><a href="#about" class="link ">about me</a></li>
                     <li class="links"><a href="#my-projects" class="link ">projects</a></li>
                     <li class="links"><a href="#contact-me" class="link ">contact me</a></li>
-                    
+
                 </ul>
             </div>
         </div>
     </header>
-    
+
     <section class="hero" id="hero">
         <div class="intro-info">
-            <div class="intro-head"> <div class="dev-hello"><p>Hello</p></div><h3>I'm </h3><h1>Ashish<br> Mishra</h1></div>
-            <div class="intro-sub"><p>Developer</p></div>
+            <div class="intro-head">
+                <div class="dev-hello">
+                    <p>Hello</p>
+                </div>
+                <h3>I'm </h3>
+                <h1>Ashish<br> Mishra</h1>
+            </div>
+            <div class="intro-sub">
+                <p>Developer</p>
+            </div>
             <div class="cta">
                 <div class="main-cta-btn">
-                    <a href="#">Hire Me</a> 
+                    <a href="#">Hire Me</a>
                 </div>
                 <div class="main-cta-btn">
-                    <a href="#">Resume</a> 
+                    <a href="#">Resume</a>
                 </div>
             </div>
-            
+
             <div class="social-links">
                 <div class="link-1 links-s">
                     <img src="img/small-squares.svg" alt="">
@@ -72,47 +90,59 @@
         <div class="svg-style">
             <img src="img/download.svg" alt="">
         </div>
-        <div id="hero-img" class="hero-img" ><img  src="img/for_w_sm.png"></div>
-        <div id="hero-img-tab" class="hero-img-tab" ><img  src="img/for_w_sm.png"></div>   
+        <div id="hero-img" class="hero-img"><img src="img/for_w_sm.png"></div>
+        <div id="hero-img-tab" class="hero-img-tab"><img src="img/for_w_sm.png"></div>
     </section>
-    
-    <section  id="about" class="about-me">
+
+    <section id="about" class="about-me" style="position: relative;">
+        <div class="blob"
+                                style=" top:0%; left: 45%; width: 10vw; min-width: 100px; z-index: -100;">
+                                <svg viewBox="0 0 310 350">
+                                    <path id="s1"
+                                        style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                                        d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
+                                </svg>
+                            </div>
         <div class="container">
-           <div id="section-title"><h2>About Me</h2></div>
-           <div class="image-about-small">
-               <img src="img/for_w_sm.png" alt="">
-           </div>
+            <div id="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="image-about-small">
+                <img src="img/for_w_sm.png" alt="">
+            </div>
             <div id="image-upto" class="grid-view">
                 <div class="about-para cols">
-                    
+
                     <p>
                         Hey, I am Ashish Mishra, a Passionate self-taught developer based
                         in India, currently persuing B.Tech from National Institute of Technology,
-                        Agartala. I am in love with building awesome new things in every field of development either Web Development or Game development or even Software development.
+                        Agartala. I am in love with building awesome new things in every field of development either Web
+                        Development or Game development or even Software development.
                     </p>
                     <p>
-                        I also like to design Graphics, do Illustrations and build/enrich UX/UI designs. I am also intrested in Machine learning, AI and Making animations on blender.
+                        I also like to design Graphics, do Illustrations and build/enrich UX/UI designs. I am also
+                        intrested in Machine learning, AI and Making animations on blender.
                     </p>
                 </div>
                 <div class="image-about cols">
-                    <div id="abt-img" class="abt-img" ><img  src="img/for_w_sm.png"></div>
+                    <div id="abt-img" class="abt-img"><img src="img/for_w_sm.png"></div>
                 </div>
             </div>
-      
+
 
             <!-- My-Skills -->
             <div id="skills" class="my-skills" style="position: relative;">
                 <div id="section-subtitle">
                     <h2>My Skills</h2>
                 </div>
-                <div class="outer-parallax" >
-                    <i class="fab fa-css3-alt" ></i>
+                <div class="outer-parallax">
+                    <i class="fab fa-css3-alt"></i>
                     <i class="fab fa-python"></i>
                     <i class="fab fa-unity"></i>
-                    <img src="img/c++.svg"  >
+                    <img src="img/c++.svg">
                     <i class="fab fa-js-square"></i>
                 </div>
-                <div class="inner-parallax  " >
+                <div class="inner-parallax  ">
                     <p style="top: 30%; left: 36%; font-size: 3em;"><i class="fab fa-html5"></i></p>
                     <p style="top: 0%; left: 93%; font-size: 2em;">C#</p>
                     <p style="top: 8%; left: 0%; font-size: 1em;">blender</p>
@@ -122,57 +152,62 @@
                     <p style="top: -25%; left: 72%; font-size: 1.7em;"><i class="fab fa-react"></i></p>
                 </div>
 
-            </div> <!--End My-Skills -->
+            </div>
+            <!--End My-Skills -->
 
             <!-- What-I-Do -->
-            <div id="what-i-do" class="what-i-do"> 
-                <div id="section-subtitle"><h2>What I Do</h2></div>
+            <div id="what-i-do" class="what-i-do">
+                <div id="section-subtitle">
+                    <h2>What I Do</h2>
+                </div>
                 <div class="flex-b3">
                     <div class="game">
-                        
+
                         <div class="game-dev">
                             <img src="img/man.svg" alt="">
                             <h4 class="align-center">Game Dev</h4>
                             <p>
                                 From playing video games to making them it always been my great intrest.
-                                I love making games as it is full of possibilities and provides a proper balance of challenge and opportunity to present my self made world to everyone. It also fulfills my longing for writing code. 
-                                I have made games in Python, JavaScript, Unity and currently learning and focussing on Unity for future.
+                                I love making games as it is full of possibilities and provides a proper balance of
+                                challenge and opportunity to present my self made world to everyone. It also fulfills my
+                                longing for writing code.
+                                I have made games in Python, JavaScript, Unity and currently learning and focussing on
+                                Unity for future.
                             </p>
                         </div>
                     </div>
                     <div class="web">
                         <div class="web-dev">
-                            <h4 class="align-center">Web <div class="tilted">Dev</div></h4>
+                            <h4 class="align-center">Web <div class="tilted">Dev</div>
+                            </h4>
                             <p>
-                                It gives me immense pleasure and satisfaction in making a boring looking HTML page to a Professional looking fully fledged websites with CSS. JavaScript gives an extra edge to my designing sword to carve web elements and make them fully customizable.
-                                I make websites that feels great, looks aestetic and works fantistically well. I mostly use Vanilla HTML CSS but had worked with React too.
-                                
+                                It gives me immense pleasure and satisfaction in making a boring looking HTML page to a
+                                Professional looking fully fledged websites with CSS. JavaScript gives an extra edge to
+                                my designing sword to carve web elements and make them fully customizable.
+                                I make websites that feels great, looks aestetic and works fantistically well. I mostly
+                                use Vanilla HTML CSS but had worked with React too.
+
                             </p>
-                            
+
                             <div class="normal-btn"><a href=""></a></div>
                         </div>
                     </div>
-                    
+
                     <div class="graphics" style="position: relative;">
                         <div class="graphics-design ">
                             <h4 class="align-center">Graphic Design</h4>
                             <p>
-                            It all started as an experiment for change and had became a part of my life. 
-                            I like the idea of visual story telling, I can't emphasize enough on what value can good graphic can add to worth of Something, it can also gives life to imagination.
-                            I do Illustrations and UX/UI designs for commercial projects too and animation with blender in my spare time. 
+                                It all started as an experiment for change and had became a part of my life.
+                                I like the idea of visual story telling, I can't emphasize enough on what value can good
+                                graphic can add to worth of Something, it can also gives life to imagination.
+                                I do Illustrations and UX/UI designs for commercial projects too and animation with
+                                blender in my spare time.
                             </p>
-                            <div class="blob" style=" top:-10%; left: 90%; width: 10vw; min-width: 100px; z-index: -100;">
-                                <svg viewBox="0 0 310 350">
-                                    <path
-                                    id="s1" 
-                                    style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
-                                    d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
-                                </svg>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
-               
+
 
 
             </div><!-- end what-i-do -->
@@ -182,63 +217,73 @@
 
     <!-- =======My Projects=========== -->
     <section id="my-projects" class="my-projects" style="position: relative;">
-        <div class="blob" style=" top:10%; left: 10%; width: 7vw; min-width: 100px; z-index: -100;">
+        <div class="blob" style=" top:0%; left: 30%; width: 7vw; min-width: 100px; z-index: -100;">
             <svg viewBox="0 0 310 350">
-                <path
-                id="s1" 
-                style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
-                d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+                <path id="s1"
+                    style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                    d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
             </svg>
         </div>
         <div class="container">
-            <div id="section-title"><h2>My Projects</h2></div>
+            <div id="section-title">
+                <h2>My Projects</h2>
+            </div>
 
             <div class="project-wrapper">
-                
+
                 <!-- <div class="100pxw"></div> -->
                 <div class="project-text">
                     <div class="project-content">
                         <h2>zlftoken.org</h2>
                         <p>
-                            Zlftoken.org is a full fledged website curated for an e-commerce and direct marketing company ZLF, that possess four vibrant years of experience and more than 8 product verticals satisfying 20000s customer all over India.                         <p>I have designed the whole website from scratch, compiling everything from the trending news and talks to description about services and the team serving as a enriching experience for the visitors.                                                                                        The design of the whole website has pushed me beyond limits even making me experiment my hands on design, API for the very first time and I am further planning of extending it to other domains further.</p>
+                            Zlftoken.org is a full fledged website curated for an e-commerce and direct marketing
+                            company ZLF, that possess four vibrant years of experience and more than 8 product verticals
+                            satisfying 20000s customer all over India.
+                        <p>I have designed the whole website from scratch, compiling everything from the trending news
+                            and talks to description about services and the team serving as a enriching experience for
+                            the visitors. The design of the whole website has pushed me beyond limits even making me
+                            experiment my hands on design, API for the very first time and I am further planning of
+                            extending it to other domains further.</p>
                         </p>
-                        
+
                     </div>
                     <div class="more-info">
                         <div class="get-it">
                             <a title="Github" class="cta-btn-square" href="#"><i class="fab fa-github"></i></a>
                             <a title="Learn More" class="cta-btn" href="#">More</a>
                             <a title="Visit Site" class="cta-btn" href="#">Visit</a>
-                            
+
                         </div>
                         <div class="tech-used">
                             <i title="HTML" class="fab fa-html5"></i>
-                            <i title="CSS" class="fab fa-css3-alt" ></i>
+                            <i title="CSS" class="fab fa-css3-alt"></i>
                             <i title="JavaScript" class="fab fa-js-square"></i>
                             <i title="Bootstrap" class="fab fa-bootstrap"></i>
                             <!-- <i title="Python"class="fab fa-python"></i> -->
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="project-view">
                     <div class="project-graphics">
-                         <img src="img/zlf-360.jpg" alt="zlf-wibsite">
+                        <img src="img/zlf-360.jpg" alt="zlf-wibsite">
                     </div>
-                 </div>
+                </div>
             </div>
 
             <div class="project-wrapper">
-                
+
                 <!-- <div class="100pxw"></div> -->
                 <div class="project-text">
                     <div class="project-content">
                         <h2>Mad Island</h2>
                         <p>
-                            Mad Island is a action, adventerous skill based topdown game build with Pygame library in Python. I have used Tiled to create map provided by mapeditor.org . 
+                            Mad Island is a action, adventerous skill based topdown game build with Pygame library in
+                            Python. I have used Tiled to create map provided by mapeditor.org .
                         </p>
                         <p>
-                            Protagonist is stranded in an unknown Island and everyone wants to kill him. He runs around the Island taking over enimies, trying to make sense what is going on.
+                            Protagonist is stranded in an unknown Island and everyone wants to kill him. He runs around
+                            the Island taking over enimies, trying to make sense what is going on.
                         </p>
                     </div>
                     <div class="more-info">
@@ -246,7 +291,7 @@
                             <a class="cta-btn-square" href="#"><i class="fab fa-github"></i></a>
                             <a class="cta-btn" href="#">More</a>
                             <!-- <a class="cta-btn" href="#">Star Repo</a> -->
-                            
+
                         </div>
                         <div class="tech-used">
                             <i title="Python" class="fab fa-python"></i>
@@ -254,27 +299,28 @@
                             <!-- <i title="Python"class="fab fa-python"></i> -->
                         </div>
                     </div>
-                    
-                    
+
+
                 </div>
                 <div class="project-view">
                     <div class="project-graphics">
-                         <img src="img/mad-island-360.jpg" alt="">
+                        <img src="img/mad-island-360.jpg" alt="">
                     </div>
-                 </div>
+                </div>
             </div>
 
             <div class="project-wrapper">
-                
+
                 <!-- <div class="100pxw"></div> -->
                 <div class="project-text">
                     <div class="project-content">
                         <h2>Ethination</h2>
                         <p>
-                            A 3rd person, 3D runner game made in unity as a learning project. 
+                            A 3rd person, 3D runner game made in unity as a learning project.
                         </p>
                         <p>
-                            Player can only contol its sidewise movements and it is restricted to jump own its own but have to use obstacles to overcome obstacles, isn't intresting.
+                            Player can only contol its sidewise movements and it is restricted to jump own its own but
+                            have to use obstacles to overcome obstacles, isn't intresting.
                         </p>
                     </div>
                     <div class="more-info">
@@ -282,7 +328,7 @@
                             <a class="cta-btn-square" href="#"><i class="fab fa-github"></i></a>
                             <a class="cta-btn" href="#">View More</a>
                             <!-- <a class="cta-btn" href="#">Star Repo</a> -->
-                            
+
                         </div>
                         <div class="tech-used">
                             <i title="Python" class="fab fa-python"></i>
@@ -290,35 +336,37 @@
                             <!-- <i title="Python"class="fab fa-python"></i> -->
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="project-view" style="position: relative;">
                     <div class="project-graphics">
-                         <img src="img/ethination.jpg" alt="">
+                        <img src="img/ethination.jpg" alt="">
                     </div>
-                    <div class="blob" style=" top:-20%; left: 50%; width: 5vw;min-width: 100px; z-index: -100;">
+                    <div class="blob" style=" top:-20%; left: 50%; width: 10vw; min-width: 100px; z-index: -100;">
                         <svg viewBox="0 0 310 350">
-                            <path
-                            id="s1" 
-                            style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
-                            d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+                            <path id="s1"
+                                style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                                d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
                         </svg>
                     </div>
-                 </div>
-                 
+                </div>
+
             </div>
 
             <div class="project-wrapper">
-                
+
                 <!-- <div class="100pxw"></div> -->
                 <div class="project-text">
                     <div class="project-content">
                         <h2>Kill Corona</h2>
                         <p>
-                            Kill Corona was the first Pygame, Python game I have ever made. It is a simple high score shooting game with a little twist added to spread awareness about the Pandemic, if you touch any virus with bullet it splits into two, and if it touches you you, its game over literally too.
+                            Kill Corona was the first Pygame, Python game I have ever made. It is a simple high score
+                            shooting game with a little twist added to spread awareness about the Pandemic, if you touch
+                            any virus with bullet it splits into two, and if it touches you you, its game over literally
+                            too.
                         </p>
                         <p>
-                            
+
                         </p>
                     </div>
                     <div class="more-info">
@@ -326,97 +374,93 @@
                             <a title="Github" class="cta-btn-square" href="#"><i class="fab fa-github"></i></a>
                             <a title="Learn More" class="cta-btn" href="#">More</a>
                             <!-- <a title="Visit Site" class="cta-btn" href="#">Visit</a> -->
-                            
+
                         </div>
                         <div class="tech-used">
                             <i title="Python" class="fab fa-python"></i>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="project-view">
                     <div class="project-graphics">
-                         <img src="img/kill-corona-360.jpg" alt="zlf-wibsite">
+                        <img src="img/kill-corona-360.jpg" alt="zlf-wibsite">
                     </div>
-                 </div>
+                </div>
             </div>
 
 
 
-            
+
 
         </div>
     </section>
     <div class="boom decoration" style="position: relative;">
         <div class="blob" style=" top:10%; left: 50%; width: 10vw; min-width: 100px; z-index: -100;">
             <svg viewBox="0 0 310 350">
-                <path
-                id="s1" 
-                style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
-                d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"/>
+                <path id="s1"
+                    style="opacity:0.998;fill:#587be5;fill-opacity:1;stroke-width:1.61165;stroke-miterlimit:4;stroke-dasharray:none; z-index: -100;"
+                    d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z" />
             </svg>
         </div>
     </div>
-      
+
     <section id="contact-me" class="contact-me">
-      
+
         <div class="container">
-           <div id="section-title">
-               <h2>Contact Me</h2>
-           </div>
-              
-          <div class="wrapper-all">
-              <div class="contact-image">
-                <i class="fas bob-updown fa-mail-bulk" style="font-size: 120px; color: #4961DC; padding: 25px;"></i>
-                <div class="social">
+            <div id="section-title">
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="wrapper-all">
+                <div class="contact-image">
+                    <i class="fas bob-updown fa-mail-bulk" style="font-size: 120px; color: #4961DC; padding: 25px;"></i>
+                    <div class="social">
                         <div class="links">
-                        <a href="#"><i class="fab fa-github-square"></i></a>
-                   
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    
-                        <a href="#"><i class="fab fa-instagram-square"></i></a>
-                   
-                        <a href="#"><i class="fab fa-codepen"></i></a>
-                        </div> 
+                            <a href="#"><i class="fab fa-github-square"></i></a>
+
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+
+                            <a href="#"><i class="fab fa-codepen"></i></a>
+                        </div>
                         <div class="mail">
                             <a href="mailto:mishrashish0@gmail.com">@email</a>
                         </div>
-                </div> 
+                    </div>
                 </div>
-    
-            <div class="wrapper-contact">
-            <form class="contact-form"
-            novalidate
-            action="https://formspree.io/f/mgepykgo"
-            method="POST"
-            >
-            
-            <div class="wrap-inputs wrap-name-contact">
-                <label>
-                    <input class="inputs name-contact" type="text" name="name" placeholder="Your Name">
-                </label>
+
+                <div class="wrapper-contact">
+                    <form class="contact-form" novalidate action="https://formspree.io/f/mgepykgo" method="POST">
+
+                        <div class="wrap-inputs wrap-name-contact">
+                            <label>
+                                <input class="inputs name-contact" type="text" name="name" placeholder="Your Name">
+                            </label>
+                        </div>
+                        <div class="wrap-inputs wrap-email-contact">
+                            <label>
+                                <input class="inputs email-contact" type="text" name="email" placeholder="Your Email">
+                            </label>
+                        </div>
+                        <div class="wrap-inputs wrap-message-contact">
+                            <label>
+
+                                <textarea class="inputs message-contact" name="message"
+                                    placeholder="Say Something..."></textarea>
+                            </label>
+                        </div>
+                        <div class=" wrap-button-contact">
+                            <button class="submit-btn" type="submit">Send</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
-            <div class="wrap-inputs wrap-email-contact">
-                <label>
-                    <input  class="inputs email-contact" type="text" name="email" placeholder="Your Email">
-                </label>
-            </div>
-            <div class="wrap-inputs wrap-message-contact">
-                <label>
-            
-                    <textarea  class="inputs message-contact" name="message" placeholder="Say Something..."></textarea>
-                </label>
-            </div>
-            <div class=" wrap-button-contact">
-                <button class="submit-btn" type="submit">Send</button>
-            </div>
-     
-            </form>
-        </div>
-          </div>
         </div>
     </section>
-     
+
     <footer class="footer" id="footer">
         <div class="footer-text">
             <span>made with <i class="fas fa-heart"></i> by me</span>
@@ -424,6 +468,7 @@
     </footer>
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-   
+
 </body>
+
 </html>
