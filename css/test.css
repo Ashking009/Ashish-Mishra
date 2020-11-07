@@ -973,7 +973,7 @@ a:hover{
 /* ================ My Skills ========== */
 .about-me .container .my-skills{
     position: relative;
-    /* overflow: hidden; */
+    overflow-y: hidden;
 }
 .about-me .container .my-skills .outer-parallax{
     display: flex;
