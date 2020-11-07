@@ -247,7 +247,6 @@ a:hover{
 @media(max-width:768px){
     #header-blob{
         left: -3%;
-        /* top: -100%; */
     } 
     .nav-bar{
         position: fixed;
@@ -369,7 +368,6 @@ a:hover{
     min-height: 280px;
     height: 100%;
     bottom: 0;
-    /* right: -40px; */
     z-index: -10;
 }
 .hero .svg-style{
@@ -380,17 +378,14 @@ a:hover{
     z-index: -100;
 }
 .hero .hero-img-tab {
-    /* max-height: 100vh; */
     position: relative;
     
 }
 
 
 .hero .svg-style2{
-    /* width: 70%; */
     position: absolute;
     bottom: -650px;
-    /* right: -200px; */
     z-index: 1;
 }
 .hero .intro-info{
@@ -401,7 +396,6 @@ a:hover{
     justify-content: space-evenly;
     align-items: center;
     font-family:"Montserrat";
-    /* font-size: 54px; */
     padding-left: 15%;
     margin: 0 auto;
     position: relative;
@@ -419,18 +413,10 @@ a:hover{
 
 }
 .hero .intro-info .intro-head h3{
-    /* text-align: left; */
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: .2rem;
-    /* padding-right: 100%; */
-    /* display: block; */
-   /* margin: 0 auto; */
-   /* position: absolute; */
    margin-right: auto;
-
-   
-  
 }
 .hero .intro-info .intro-sub{
     font-size: 3rem;
@@ -464,9 +450,7 @@ a:hover{
     }
     100%{
         top: -300%;
-        left: -500%;
-       
-       
+        left: -500%; 
     }
 }
 .hero .intro-info .intro-sub::before{
@@ -502,7 +486,6 @@ a:hover{
 }
 .hero .intro-info .main-cta-btn a:hover{
     transition: 0.3s;
-    /* background: linear-gradient(134deg,black 10%,white 90%); */
     background:  linear-gradient(134deg, #6A98F0 20%,  #5a74f7 90%) ;
    
 }
@@ -511,7 +494,6 @@ a:hover{
 }
 .hero .intro-info .social-links .link-1 img,.link-3 img{
     animation: rotate 20s linear infinite ;
-    /* animation: pulse 10s ease-in-out infinite; */
 }
 .hero .intro-info .social-links .link-2 img,.link-4 img{
     animation: rotate 20s linear infinite reverse;
@@ -541,26 +523,14 @@ a:hover{
     position: relative;
     
 }
-/* .hero .intro-info .social-links .fake-cir{
-    height: 500px;
-    width: 500px;
-    position: absolute;
-    background: transparent;
-    border: tomato 5px dotted;
-    border-radius: 50%;
-    top: -400px;
-    left: -270px;
-    z-index: -10;
-} */
+
 .hero .intro-info .social-links .link-1{
     position: absolute;
     transform: translate(30px, 60px);
     font-size: 2rem;
-    /* z-index: -2; */
 }
 .hero .intro-info .social-links .link-1 i{
     position: absolute;
-    /* top: -50px; */
     left:.6rem;
     top: .5rem;
     transform: rotateZ(-10deg);
@@ -568,13 +538,10 @@ a:hover{
 .hero .intro-info .social-links .link-2{
     position: absolute;
     transform: translate(-130px, 60px);
-    font-size: 2rem;
-    /* z-index: -2; */
-    
+    font-size: 2rem;  
 }
 .hero .intro-info .social-links .link-2 i{
     position: absolute;
-    /* top: -50px; */
     left:.6rem;
     top: .5rem;
     transform: rotateZ(20deg);
@@ -583,11 +550,9 @@ a:hover{
     position: absolute;
     transform: translate(-250px, -20px);
     font-size: 2rem;
-    /* z-index: -2; */
 }
 .hero .intro-info .social-links .link-3 i{
     position: absolute;
-    /* top: -50px; */
     left:.6rem;
     top: .5rem;
     transform: rotateZ(40deg);
@@ -596,11 +561,9 @@ a:hover{
     position: absolute;
     transform: translate(-310px, -130px);
     font-size: 2rem;
-    /* z-index: -2; */
 }
 .hero .intro-info .social-links .link-4 i{
     position: absolute;
-    /* top: -50px; */
     left:.6rem;
     top: .5rem;
     transform: rotateZ(70deg);
@@ -621,7 +584,6 @@ a:hover{
         transform: translateX(-80%);
         position: absolute;
         z-index: -10;
-        /* max-width: 400px; */
         left: 100%;
         top: -40vh;
         }
@@ -648,7 +610,6 @@ a:hover{
     transform: translateX(-70%);
     position: absolute;
     z-index: -10;
-    /* max-width: 400px; */
     left: 100%;
     top: -40vh;
     }
@@ -662,14 +623,12 @@ a:hover{
 }
     .header .header-wrapper{
         width: 100%;
-        /* height: 100%; */
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         position: fixed;
         padding: 0 5%;
         z-index: 100;
-        /* background:linear-gradient(to right,rgba(0,0,0,0.1) ,rgba(0,0,0,0.1)); */
         background: rgba(0, 0, 0, 0.9);
         transition: ease-in-out .3s;
     
@@ -774,7 +733,6 @@ a:hover{
     display: none;
 }
 .about-me .container .cols{
-    /* padding: 0 15px; */
     text-align: justify;
     line-height: 1.5;
     font-size: 1.1em;
@@ -813,7 +771,6 @@ a:hover{
     background: #303030;
     margin: 0 15px;
     padding: 15px;
-    /* min-width: 400px; */
     flex-wrap: wrap;
 }
 .about-me .container .what-i-do .game img{
@@ -823,10 +780,7 @@ a:hover{
     left: 0px;
     transition: .5s;
 }
-/* .about-me .container .what-i-do .game:hover{
-    transform: rotateZ(10deg) translateX(10px);
-    transition: .7s;
-} */
+
 .about-me .container .what-i-do .game:hover img{
     transform: rotateZ(-30deg) translateX(-80px);
     transition: .7s;
@@ -849,9 +803,6 @@ a:hover{
   animation: tilt 1s ease-in-out 250ms reverse;
  
 }
-/* .about-me .container .what-i-do .graphics  {
-    transition: 5s ease-in-out; 
-} */
 .about-me .container .what-i-do .graphics:hover .graphics-design {
     transition: 5s;
     background: -webkit-linear-gradient(rgb(94, 25, 94), blue,green,yellow,orange,red);
@@ -913,7 +864,7 @@ a:hover{
     }
     100%{
         transform: translateY(15px) rotate(30deg);
-        color:red;
+        color:white;
     }
 }
 @media (max-width:992px) and (min-width:768px)
@@ -1054,9 +1005,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     display: flex;
-    /* background:linear-gradient(rgba(134, 147, 212, 0.3), rgba(199, 208, 255,.3)); */
-   
-   
 }
 .my-projects .container .project-wrapper .project-graphics img{
     width: 100%;
@@ -1098,11 +1046,8 @@ a:hover{
 /* ====================== Contact Form ================== */
 .contact-me .container .wrapper-all{
     display: flex;
-    /* flex-wrap: wrap; */
-    
     justify-content: space-evenly;
     align-items: center;
-    /* background: crimson; */
 }
 @media(max-width:768px)
 {
@@ -1177,8 +1122,6 @@ a:hover{
     line-height: 1.2;
     padding: 1em ;
     min-height: 3em;
-    /* background: rgb(70, 64, 64); */
-    /* color: white; */
     font-weight: 600;
 }
 .contact-me .container  .wrap-inputs .message-contact{
@@ -1218,7 +1161,6 @@ textarea {
        
     }
 }
-
   /* ==============Footer============== */
   .footer{
       background: var(--col-pri);
